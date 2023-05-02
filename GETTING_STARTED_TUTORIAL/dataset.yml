@@ -1,0 +1,14 @@
+features: [sensor_pos_x, sensor_pos_y, sensor_pos_z, t]
+index_column: event_no
+loss_weight_column: null
+loss_weight_default_value: null
+loss_weight_table: null
+node_truth: null
+node_truth_table: null
+path: ..\data\examples\parquet\prometheus\prometheus-events.parquet
+pulsemaps: total
+seed: null
+selection: null
+string_selection: null
+truth: [injection_energy, injection_zenith]
+truth_table: mc_truth
